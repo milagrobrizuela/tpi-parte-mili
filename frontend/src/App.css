@@ -1,0 +1,165 @@
+.app-container {
+  display: flex;
+  min-height: 100vh;
+}
+
+.menu {
+  width: 200px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  flex-shrink: 0;
+}
+
+.menu-logo {
+  width: 80px;
+}
+
+.menu-options {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.menu-option {
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.menu-option.active {
+  background-color: #ddd;
+}
+
+.content {
+  flex: 1;
+  padding: 20px;
+  background-color: #fff;
+}
+
+.welcome {
+  text-align: center;
+}
+
+.welcome h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.welcome img {
+  width: 300px;
+}
+
+.container {
+  margin-top: 20px;
+}
+
+.listado {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.listado th,
+.listado td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.form {
+  margin-top: 20px;
+}
+
+.form table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.form th,
+.form td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.table-options {
+  margin-top: 20px;
+}
+
+.table-list {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.table-options {
+  margin-top: 20px;
+}
+
+.table-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+.table-button {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: #f2f2f2;
+  cursor: pointer;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.table-button.active {
+  background-color: #ddd;
+}
+
+.back-button {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: #f2f2f2;
+  cursor: pointer;
+}
+
+.back-button:hover {
+  background-color: #ddd;
+}
+
+.input {
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 8px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.aceptar-button {
+  padding: 8px 16px;
+  font-size: 14px;
+  background-color: #f2f2f2;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.aceptar-button:hover {
+  background-color: #ddd;
+}
+
+.editar-button {
+  padding: 8px 16px;
+  font-size: 14px;
+  background-color: #f2f2f2;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.editar-button:hover {
+  background-color: #ddd;
+}
